@@ -23,16 +23,24 @@ def person():
 # person()
 
 def pay():
-    payRate = 42.5
+    payRate = 45.5
     hours = 40
     gross = payRate * hours
-    tax = (gross/100) * 20
+    tax = (gross/100) * 18
     net = gross - tax
+    annualGross = gross * 52
+    annualNet = net * 52
     print('Weekly Gross:'.upper())
     print(gross)
     print('****')
     print('Weekly Net:'.upper())
     print(net)
+    print('****')
+    print('Annual Gross:'.upper())
+    print(annualGross)
+    print('****')
+    print('Annual Net:'.upper())
+    print(annualNet)
 
 pay()
 

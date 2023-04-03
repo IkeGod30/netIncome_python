@@ -28,7 +28,10 @@ def pay():
     gross = payRate * hours
     tax = (gross/100) * 20
     net = gross - tax
+    print('Weekly Gross:'.upper())
     print(gross)
+    print('****')
+    print('Weekly Net:'.upper())
     print(net)
 
 pay()

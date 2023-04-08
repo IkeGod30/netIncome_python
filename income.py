@@ -1,26 +1,26 @@
-def person():
-    employees = ['John Smith', 'Stacy Maggie', 'Ike Mmadu', 'Nnenna Duru']
-    staff = {"SBA": 'Tony Izuogu', "SBA": 'Mark Owen', "SBA": 'James Oaths'}
-    SBA = ['Anthony Izuogu', 'Mark Johnson', 'James Oats']
-    SBA.append('Wendy Madison')
-    first_name = "Tony"
-    last_name = "Jones"
-    position = "Plumber"
-    PTO = "On"
-    Remark = "PTO Status :"
-    Floor = "61"
-    Location = "Assigned Floor :"
-    print(f"Welcome {first_name.upper()}, {last_name.upper()}")
-    print(Remark, PTO.upper())
-    print(Location, Floor)
-    print(employees[2], employees)
-    print(staff)
-    print(SBA)
-    employees.pop()
+# def person():
+#     employees = ['John Smith', 'Stacy Maggie', 'Ike Mmadu', 'Nnenna Duru']
+#     staff = {"SBA": 'Tony Izuogu', "SBA": 'Mark Owen', "SBA": 'James Oaths'}
+#     SBA = ['Anthony Izuogu', 'Mark Johnson', 'James Oats']
+#     SBA.append('Wendy Madison')
+#     first_name = "Tony"
+#     last_name = "Jones"
+#     position = "Plumber"
+#     PTO = "On"
+#     Remark = "PTO Status :"
+#     Floor = "61"
+#     Location = "Assigned Floor :"
+#     print(f"Welcome {first_name.upper()}, {last_name.upper()}")
+#     print(Remark, PTO.upper())
+#     print(Location, Floor)
+#     print(employees[2], employees)
+#     print(staff)
+#     print(SBA)
+#     employees.pop()
     
-    print(employees)
+#     print(employees)
 
-# person()
+# # person()
 
 print("##### EMPLOYEE'S PAY COMPUTATION ### ")
 print('')
@@ -44,6 +44,11 @@ def pay():
     print('****')
     print('Annual Net:'.upper())
     print(annualNet)
+
+    payLog = [11, 10.5, 18, 23, 24, 30, 45]
+    for item in payLog:
+        print(f'Pay History: {item}')
+        
 
 pay()
 

@@ -8,5 +8,10 @@ class Employee():
         self.role = role
 
 Ave = Employee(first_name="Avelima", last_name="Cortez", role="Welcome Host")
+Mike = Employee(first_name="Mike", last_name="Suazo", role="SBA")
+print("")
 print(Ave.first_name.upper(), Ave.last_name.upper(), Ave.role.upper())
+print(Mike.Vendor)
+print("")
+print(Mike.first_name.upper(), Mike.last_name.upper(), Mike.role.upper())
 print(Ave.Vendor)

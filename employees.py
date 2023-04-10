@@ -7,6 +7,15 @@ class Employee():
         self.last_name = last_name
         self.role = role
 
+    def salary(self):
+        hr = 40
+        rate = 50
+        gross = hr * rate
+        return self.gross
+
+meine = Employee(first_name="James", last_name="Oats", role="Tour Guide")
+print(meine.salary())
+
 Ave = Employee(first_name="Avelima", last_name="Cortez", role="Welcome Host")
 Mike = Employee(first_name="Mike", last_name="Suazo", role="SBA")
 print("")

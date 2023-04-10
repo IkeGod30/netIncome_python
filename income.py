@@ -26,7 +26,7 @@ print("##### EMPLOYEE'S PAY COMPUTATION ### ")
 print('')
 
 def pay():
-    payRate = 45.5
+    payRate = 50
     hours = 40
     gross = payRate * hours
     tax = (gross/100) * 18

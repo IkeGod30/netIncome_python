@@ -45,9 +45,9 @@ def pay():
     print('Annual Net:'.upper())
     print(annualNet)
 
-    payLog = [11, 10.5, 18, 23, 24, 30, 45]
-    for item in payLog:
-        print(f'Pay History: {item}')
+    #payLog = [11, 10.5, 18, 23, 24, 30, 45]
+    #for item in payLog:
+       # print(f'Pay History: {item}')
         
 
 pay()

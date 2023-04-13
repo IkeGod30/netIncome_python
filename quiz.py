@@ -1,11 +1,13 @@
+
+isSelected = ""
 iphone = "Things Fall Apart by Chinua Achebe"
 car = "Half of Yellow Sun Chimamanda Adichie"
 vacation = "Merchant of Venice by William Shakespear"
-israel = "Sanits In Hell by Tony Izuogu"
+israel = "Saints In Hell by Tony Izuogu"
 
-if iphone:
+if iphone == isSelected:
     print('quiz1')
-elif car:
+elif car != isSelected:
     print('quiz2')
 elif vacation:
     print('quiz3')

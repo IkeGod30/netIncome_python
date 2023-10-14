@@ -1,6 +1,6 @@
 # def person():
 #     employees = ['John Smith', 'Stacy Maggie', 'Ike Mmadu', 'Nnenna Duru']
-#     staff = {"SBA": 'Tony Izuogu', "SBA": 'Mark Owen', "SBA": 'James Oaths'}
+#     staff = {"SBA": 'Anthony Izuogu', "SBA": 'Mark Owen', "SBA": 'James Oaths'}
 #     SBA = ['Anthony Izuogu', 'Mark Johnson', 'James Oats']
 #     SBA.append('Wendy Sloan')
 #     first_name = "Anthony"
@@ -8,7 +8,7 @@
 #     position = "Plumber"
 #     PTO = "On"
 #     Remark = "PTO Status :"
-#     Floor = "61"
+#     Floor = "65"
 #     Location = "Assigned Floor :"
 #     print(f"Welcome {first_name.upper()}, {last_name.upper()}")
 #     print(Remark, PTO.upper())
